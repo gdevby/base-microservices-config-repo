@@ -28,8 +28,8 @@ spring:
             redirect-uri: http://base-microservices-keycloak:8080/login/oauth2/code/keycloak
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: true
+    fetch-registry: true
     service-url:
       defaultZone: http://base-microservices-eureka:8002/eureka"
 # Enable these to debug the Authorization flow
